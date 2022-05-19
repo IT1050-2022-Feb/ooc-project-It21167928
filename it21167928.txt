@@ -1,6 +1,6 @@
 #include <iostream>
 #include<string.h>
-#include<conio.h>
+
 using namespace std;
 class property
 {
@@ -56,3 +56,4 @@ int main()
   cout<<"\n enter contact  number:\t";
   cin>>ContactNo;
   p.Propertydetails();//calling function
+}
