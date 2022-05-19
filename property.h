@@ -16,8 +16,15 @@ Buyer*buyer;
 Admin*admin;
 
 public:
+
+//default constructor
 Property();
+
+//overloading constuctor
 Property(int pID,string pType,pLocation,double pPrice,Buyer*buyer,Admin*admin);
+
 void displayproperty();
+
+//destructor
   ~property();
 };
