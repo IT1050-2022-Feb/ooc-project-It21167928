@@ -18,10 +18,10 @@ Admin*admin;
 public:
 
 //default constructor
-Property();
+property();
 
 //overloading constuctor
-Property(int pID,string pType,pLocation,double pPrice,Buyer*buyer,Admin*admin);
+property(int pID,string pType,pLocation,double pPrice,Buyer*buyer,Admin*admin);
 
 void displayproperty();
 
